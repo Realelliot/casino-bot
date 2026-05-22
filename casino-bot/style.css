@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    background:#0f0f0f;
+    color:white;
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    color:gold;
+    margin-bottom:20px;
+}
+
+.balance{
+    margin-bottom:30px;
+    font-size:24px;
+}
+
+.slot-machine{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-bottom:30px;
+}
+
+.slot{
+    width:100px;
+    height:100px;
+    background:#1f1f1f;
+    border:3px solid gold;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+}
+
+button{
+    padding:15px 40px;
+    border:none;
+    border-radius:10px;
+    font-size:20px;
+    background:gold;
+    cursor:pointer;
+}
+
+.result{
+    margin-top:20px;
+    font-size:24px;
+}
