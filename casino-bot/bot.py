@@ -46,7 +46,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             InlineKeyboardButton(
                 "🎰 OPEN CASINO",
                 web_app=WebAppInfo(
-                    url="https://YOUR-RENDER-URL.onrender.com"
+                    url="https://casino-bot-08rv.onrender.com"
                 )
             )
         ]
